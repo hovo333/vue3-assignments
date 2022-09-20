@@ -1,4 +1,4 @@
-# vue3-assignments - Drop-Down Component
+# Drop-Down Component
 
 ### Project setup
 ```
