@@ -2,7 +2,12 @@
   <div class="hg-main-page">
     <h1>Props example</h1>
     <div class="flex hg-dropdown-content">
-      <organism-dropdown v-if="dropdownData" :dropdown-data="dropdownData" @select="selectItem" :visible="showDropdown1"/>
+      <organism-dropdown
+          v-if="dropdownData"
+          :visible="showDropdown1"
+          :dropdown-data="dropdownData"
+          @select="selectItem"
+      />
     </div>
 
     <h1>Slots example</h1>
@@ -119,7 +124,6 @@ export default {
   },
   methods: {
     selectItem(itemID) {
-      console.log('itemID: ', itemID)
       this.showDropdown = false
     },
     reorder() {
