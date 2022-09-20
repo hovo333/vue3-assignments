@@ -1,4 +1,14 @@
-.hg-main-page {
-  display: flex;
+.hg-dropdown-content {
+  margin-bottom: 50px;
   justify-content: center;
+}
+
+.hg-filter-content {
+  .hg-disabled-icon {
+    opacity: 0.5;
+  }
+
+  img {
+    height: 38px;
+  }
 }
