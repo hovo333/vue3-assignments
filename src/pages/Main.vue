@@ -124,6 +124,7 @@ export default {
   },
   methods: {
     selectItem(itemID) {
+      console.log('itemID: ', itemID)
       this.showDropdown = false
     },
     reorder() {
